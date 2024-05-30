@@ -20,7 +20,9 @@ Remove-Item $env:LOCALAPPDATA\nvim\.git -Recurse -Force
 nvim
 ```
 
-#### Make a backup of your current nvim and shared folder
+### For Linux/Mac/etc
+
+#### First, Make a backup of your current nvim and shared folder
 
 ```shell
 mv ~/.config/nvim ~/.config/nvim.bak
